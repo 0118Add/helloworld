@@ -20,6 +20,7 @@ local key_table = {}
 for key, _ in pairs(server_table) do
 	table.insert(key_table, key)
 end
+m:append(Template("shadowsocksr/myip"))
 
 table.sort(key_table)
 
